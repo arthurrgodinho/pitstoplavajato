@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const logoUrl = 'public/images/logo-pitstopcardetailing.png';
+const logoUrl = 'images/logo-pitstopcardetailing.png';
 
 const Logo: React.FC = () => (
     <a href="#" className="flex-shrink-0">

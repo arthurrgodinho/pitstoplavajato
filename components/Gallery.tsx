@@ -3,8 +3,8 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 // Using a single, representative image pair for the new design.
 const images = {
-    before: { src: 'public/images/gallery/1998.jpg', alt: 'Carro antes do detalhamento' },
-    after: { src: 'public/images/gallery/2025.jpg', alt: 'Carro depois do detalhamento' },
+    before: { src: 'images/gallery/1998.jpg', alt: 'Carro antes do detalhamento' },
+    after: { src: 'images/gallery/2025.jpg', alt: 'Carro depois do detalhamento' },
 };
 
 const Gallery: React.FC = () => {

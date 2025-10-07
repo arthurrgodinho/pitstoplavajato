@@ -2,7 +2,7 @@ import React from 'react';
 import { WhatsAppIcon } from './icons/SocialIcons';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
-const logoUrl = 'public/images/logo-pitstopcardetailing.png';
+const logoUrl = 'images/logo-pitstopcardetailing.png';
 
 const Booking: React.FC = () => {
     const [ref, isInView] = useScrollAnimation();

@@ -8,12 +8,12 @@ interface Service {
 }
 
 const services: Service[] = [
-  { imageUrl: 'public/images/services/lavagem-simples.jpg', title: 'Lavagem Simples', description: 'Limpeza meticulosa que preserva e realça a pintura do seu veículo.' },
-  { imageUrl: 'public/images/services/polimento-cristalizado.jpg', title: 'Polimento Profissional', description: 'Restauração do brilho original, removendo riscos e imperfeições.' },
-  { imageUrl: 'public/images/services/preparacao-de-carro-para-revenda.jpg', title: 'Preparação de Carro Para Revenda', description: 'Limpeza completa e Detalhamento, seu carro como novo.' },
-  { imageUrl: 'public/images/services/lavagem-do-motor.jpg', title: 'Lavagem do Motor', description: 'Limpeza técnica e profissional, sem danificar o motor do seu carro.' },
-  { imageUrl: 'public/images/services/aplicacao-de-revestimento.jpg', title: 'Revestimento Cerâmico', description: 'Proteção máxima com brilho intenso e efeito hidrofóbico por anos.' },
-  { imageUrl: 'public/images/services/limpeza-interna-completa.jpg', title: 'Higienização de Estofados', description: 'Higienização completa da parte interna do seu carro.' },
+  { imageUrl: 'images/services/lavagem-simples.jpg', title: 'Lavagem Simples', description: 'Limpeza meticulosa que preserva e realça a pintura do seu veículo.' },
+  { imageUrl: 'images/services/polimento-cristalizado.jpg', title: 'Polimento Profissional', description: 'Restauração do brilho original, removendo riscos e imperfeições.' },
+  { imageUrl: 'images/services/preparacao-de-carro-para-revenda.jpg', title: 'Preparação de Carro Para Revenda', description: 'Limpeza completa e Detalhamento, seu carro como novo.' },
+  { imageUrl: 'images/services/lavagem-do-motor.jpg', title: 'Lavagem do Motor', description: 'Limpeza técnica e profissional, sem danificar o motor do seu carro.' },
+  { imageUrl: 'images/services/aplicacao-de-revestimento.jpg', title: 'Revestimento Cerâmico', description: 'Proteção máxima com brilho intenso e efeito hidrofóbico por anos.' },
+  { imageUrl: 'images/services/limpeza-interna-completa.jpg', title: 'Higienização de Estofados', description: 'Higienização completa da parte interna do seu carro.' },
 ];
 
 const ServiceCard: React.FC<{ service: Service; index: number }> = ({ service, index }) => {

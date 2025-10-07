@@ -30,13 +30,13 @@ const Hero: React.FC = () => {
         <section id="hero" className="relative min-h-screen flex items-center text-white pt-20">
             {/* Desktop Background */}
             <div className="absolute inset-0 hidden md:block">
-                <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url('public/images/desktop-background.jpg')` }}></div>
+                <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url('images/desktop-background.jpg')` }}></div>
                 <div className="absolute inset-0 bg-black bg-opacity-60"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent"></div>
             </div>
             {/* Mobile Background */}
             <div className="absolute inset-0 md:hidden">
-                 <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url('public/images/mobile-background.jpg')` }}></div>
+                 <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url('images/mobile-background.jpg')` }}></div>
                 <div className="absolute inset-0 bg-black bg-opacity-60"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent"></div>
             </div>

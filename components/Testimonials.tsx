@@ -12,12 +12,12 @@ interface Testimonial {
 }
 
 const testimonials: Testimonial[] = [
-  { photoUrl: 'public/images/testimonials/janes.png', name: 'Janes Ferreira Lopes', review: 'Minha experiência nesse lavajato já vem de um bom tempo! Excelente o atendimento e também a limpeza do carro, por isso que só lavo nesse lugar…' },
-  { photoUrl: 'public/images/testimonials/paulo.png', name: 'Paulo Cardoso', review: 'Altíssima qualidade! Atendimento profissional e experiência ótima! Estão de parabéns! Único que salva aqui em Palmas! 👏🏻' },
-  { photoUrl: 'public/images/testimonials/kesia.png', name: 'Késia Anne Lise', review: 'Sempre muito boa, ótimos profissionais!' },
-  { photoUrl: 'public/images/testimonials/bruno.png', name: 'Bruno Camargo Pires', review: 'Atendimento excelente e serviço espetacular, profissionalismos e muita qualidade no serviço. Recomendo. Pra mim é o melhor lava jato de Palmas.' },
-  { photoUrl: 'public/images/testimonials/lucas.png', name: 'Lucas Gloria', review: 'O melhor de Palmas!! Meu Ford Ka ficou zero' },
-  { photoUrl: 'public/images/testimonials/diego.png', name: 'Diego Manoel', review: 'Recomendo! Excelente trabalho, nós da @usadospalmas estamos satisfeitos com o trabalho executado em nossos veículos!' },
+  { photoUrl: 'images/testimonials/janes.png', name: 'Janes Ferreira Lopes', review: 'Minha experiência nesse lavajato já vem de um bom tempo! Excelente o atendimento e também a limpeza do carro, por isso que só lavo nesse lugar…' },
+  { photoUrl: 'images/testimonials/paulo.png', name: 'Paulo Cardoso', review: 'Altíssima qualidade! Atendimento profissional e experiência ótima! Estão de parabéns! Único que salva aqui em Palmas! 👏🏻' },
+  { photoUrl: 'images/testimonials/kesia.png', name: 'Késia Anne Lise', review: 'Sempre muito boa, ótimos profissionais!' },
+  { photoUrl: 'images/testimonials/bruno.png', name: 'Bruno Camargo Pires', review: 'Atendimento excelente e serviço espetacular, profissionalismos e muita qualidade no serviço. Recomendo. Pra mim é o melhor lava jato de Palmas.' },
+  { photoUrl: 'images/testimonials/lucas.png', name: 'Lucas Gloria', review: 'O melhor de Palmas!! Meu Ford Ka ficou zero' },
+  { photoUrl: 'images/testimonials/diego.png', name: 'Diego Manoel', review: 'Recomendo! Excelente trabalho, nós da @usadospalmas estamos satisfeitos com o trabalho executado em nossos veículos!' },
 ];
 
 const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({ testimonial }) => (

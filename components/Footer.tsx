@@ -3,7 +3,7 @@ import { PhoneIcon, MailIcon, MapPinIcon } from './icons/ContactIcons';
 import { FacebookIcon, InstagramIcon, WhatsAppIcon } from './icons/SocialIcons';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
-const logoUrl = 'public/images/logo-pitstopcardetailing.png';
+const logoUrl = 'images/logo-pitstopcardetailing.png';
 
 const AnimatedColumn: React.FC<{ children: React.ReactNode, index: number }> = ({ children, index }) => {
     const [ref, isInView] = useScrollAnimation();
